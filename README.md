@@ -1,2 +1,2 @@
-# borzonifitness
-Borzoni Fitness
+# fitness
+A fitness training site template
