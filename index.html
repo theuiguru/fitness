@@ -4,56 +4,106 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fitness Training site template</title>
   <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="http://getbootstrap.com/dist/css/bootstrap-theme.min.css" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head><body>
-<nav class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Fitness Training</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  </head><body>
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header navbar-left">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Fitness Training</a>
       </div>
-    </nav>
-  
-<div class="container">
-  <div class="jumbotron"><h1>Welcome to Fitness Training!</h1>
-    <button class="btn btn-lg btn-primary">Primary Action</button>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron"><h1>Welcome to Fitness Training!</h1>
+      <button class="btn btn-lg btn-primary">Primary Action</button>
+    </div>
+    <table class="table table-condensed table-bordered table-striped table-responsive">
+      <tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+      <tr>
+        <td><b><i>Rest</i></b></td>
+        <td><ul><lh><b><i>Leg Routine #1</i></b></lh>
+          <li>Speed rope - 5 mins</li>
+          <li>Single leg weighted box jump - 3x5</li>
+          <li>Split leg squats - 5x5</li>
+          <li>Walking lunges - 3x20</li>
+          <li>Hamstring curl - 3x10</li>
+          <li>Seated Calf raise - 3x10</li>
+          </ul></td>
+        <td><ul><lh><b><i>Upperbody Routine #1</i></b></lh>
+          <li>Speed rope - 5 mins</li>
+          <li>Flat bench - 5x5</li>
+          <li>Weighted chin ups - 3x10</li>
+          <li>Incline bench - 3x10</li>
+          <li>Dumbbell row - 3x10</li>
+          <li>Cable cross overs - 3x12</li>
+          </ul></td>
+        <td><b><i>Cardio</i></b></td>
+        <td><ul><lh><b><i>Leg Routine #2</i></b></lh>
+          <li>Speed rope - 5 mins</li>
+          <li>Quarter Squats - 5x5</li>
+          <li>Speed Squats - 3x25</li>
+          <li>Box Jumps - 5x5</li>
+          <li>Lebron's Ab Superset 3x (Do all exercises sequentially then rest 30 seconds)
+            <ul><li>Russian Twist - 30 secs</li>
+              <li>Plank - 30 secs</li>
+              <li>Side Plank (Left) - 30 secs</li>
+              <li>Side Plank (Right) - 30 secs</li>
+            </ul>
+          </li>
+          </ul></td>
+        <td><ul><lh><b><i>Upperbody Routine #2</i></b></lh>
+          <li>Speed Rope - 5 mins</li>
+          <li>Weighted chin ups - 5x5</li>
+          <li>Flat Bench - 3x10</li>
+          <li>Cable Pull Down - 3x10</li>
+          <li>Cable Cross Over - 3x12</li>
+          <li>Lebron Abs Superset</li>
+          </ul></td>
+        <td><b><i>Cardio / Dunk practice</i></b></td>
+      </tr>
+    </table>
+
+
+    <div class="row">
+      <div class="col-lg-1 col-sm-6">
+        <div class="panel panel-warning">
+          <div class="panel-heading">Sunday</div>
+          <div class="panel-body">Rest</div>
+        </div>
+      </div>
+    </div>
   </div>
-  <table class="table table-condensed table-striped">
-    <tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-  </table>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-</body></html>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+  </body></html>
