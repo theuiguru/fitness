@@ -1,2 +1,2 @@
 # fitness
-A fitness training site template
+A fitness training site influenced by jacob thornton (aka @fat)
