@@ -47,4 +47,13 @@ footer a {color:#fff;}
   </div>
 </div>
 <footer>Influenced by <a href="http://twitter.com/fat" target="_blank">@fat</a></footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script></body></html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+  var bgcolors = ['#ee9825', '#41ce4d', '#c73731', '#5843c7', '#2196F3'];
+  $.each(function() {
+    var i = Math.floor(Math.random()*(bgcolors.length));
+    $('footer').css({'background-color': bgcolors[i]});
+  });
+});
+</script></body></html>
