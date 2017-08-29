@@ -5,11 +5,15 @@
 <meta name="Author" content="Chris Thomas" />
 <title>Dunk Fitness by @fat</title><style type="text/css">
 html, body {margin:0; padding:0;}
-.days {padding:20px;} 
+.days {padding:20px;}
+.day {display:none;}
+span {font-weight:bold; font-size:20px;}
 </style></head><body><h1>Dunk fitness by @fat</h1>
-<ul id="days">
-	<li>Sunday<br/>Rest</li>
-	<li>Monday<br/>Leg Routine #1
+<div class="day" id="sun"><ul>
+	<li><span>Sunday</span><br/>Rest</li>
+</ul></div>
+<div class="day" id="mon"><ul>
+	<li><span>Monday</span><br/>Leg Routine #1
 		<ul>
 		<li>Speed rope - 5 mins</li>
 		<li>Single leg weighted box jump - 3x5</li>
@@ -19,7 +23,9 @@ html, body {margin:0; padding:0;}
 		<li>Seated Calf raise - 3x10</li>
 		</ul>
 	</li>
-	<li>Tuesday<br/>Upperbody Routine #1
+</ul></div>
+<div class="day" id="tues"><ul>
+	<li><span>Tuesday</span><br/>Upperbody Routine #1
 		<ul>
 		<li>Speed rope - 5 mins</li>
 		<li>Flat bench - 5x5</li>
@@ -28,8 +34,12 @@ html, body {margin:0; padding:0;}
 		<li>Dumbbell row - 3x10</li>
 		<li>Cable cross overs - 3x12</li>
 		</ul></li>
-	<li>Wednesday<br/>Cardio</li>
-	<li>Thursday<br/>Leg Routine #2
+</ul></div>
+<div class="day" id="wed"><ul>
+	<li><span>Wednesday</span><br/>Cardio</li>
+</ul></div>
+<div class="day" id="thurs"><ul>
+	<li><span>Thursday</span><br/>Leg Routine #2
 		<ul>
 		<li>Speed rope - 5 mins</li>
 		<li>Quarter Squats - 5x5</li>
@@ -44,7 +54,9 @@ html, body {margin:0; padding:0;}
 		</li>
 		</ul>
 	</li>
-	<li>Friday<br/>Upperbody Routine #2
+</ul></div>
+<div class="day" id="fri"><ul>
+	<li><span>Friday</span><br/>Upperbody Routine #2
 		<ul>
 		<li>Speed Rope - 5 mins</li>
 		<li>Weighted chin ups - 5x5</li>
@@ -54,9 +66,34 @@ html, body {margin:0; padding:0;}
 		<li>Lebron Abs Superset</li>
 		</ul>
 	</li>
-	<li>Saturday<br/>Cardio / Dunk practice</li>
-</ul>
+</ul></div>
+<div class="day" id="sat"><ul>
+	<li><span>Saturday</span><br/>Cardio / Dunk practice</li>
+</ul></div>
 <script type="text/javascript">
 var today = new Date(),
 	days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+switch(days[today.getDay()]) {
+	case "Sunday":
+		document.getElementById("sun").style.display = "block";
+		break;
+	case "Monday":
+		document.getElementById("mon").style.display = "block";
+		break;
+	case "Tuesday":
+		document.getElementById("tues").style.display = "block";
+		break;
+	case "Wednesday":
+		document.getElementById("wed").style.display = "block";
+		break;
+	case "Thursday":
+		document.getElementById("thurs").style.display = "block";
+		break;
+	case "Friday":
+		document.getElementById("fri").style.display = "block";
+		break;
+	case "Saturday":
+		document.getElementById("sat").style.display = "block";
+		break;
+}
 </script></body></html>
