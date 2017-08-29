@@ -1,51 +1,62 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <meta name="Keywords" content="" />
-  <meta name="Description" content="Vertical Jump Fitness Routine" />
-  <meta name="Author" content="Chris Thomas" />
-  <title>Vertical Jump Fitness Routine</title><style type="text/css">
-  footer {background:#5843c7; color:#fff; text-align:center; padding:10px;}
-  </style><link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"></head><body>
-  <div class="container">
-    <div class="table-responsive">
-      <table border="1" cellspacing="1" cellpadding="3" class="table table-condensed table-bordered table-striped">
-        <tr><th colspan="2">Sunday - <i>Rest</i></th></tr>
-        <tr><th colspan="2">Monday - <i>Leg Routine #1</i></th></tr>
-        <tr><td>Speed rope - 5 mins</td><td><input type="checkbox" name="mon_speedRope" id="mon_speedRope" value="Y"/></td></tr>
-        <tr><td>Single leg weighted box jump - 3x5</td><td><input type="checkbox" name="mon_boxJump" id="mon_boxJump" value="Y"/></td></tr>
-        <tr><td>Split leg squats - 5x5</td><td><input type="checkbox" name="mon_legSquat" id="mon_legSquat" value="Y"/></td></tr>
-        <tr><td>Walking lunges - 3x20</td><td><input type="checkbox" name="mon_walkLunge" id="mon_walkLunge" value="Y"/></td></tr>
-        <tr><td>Hamstring curl - 3x10</td><td><input type="checkbox" name="mon_hamCurl" id="mon_hamCurl" value="Y"/></td></tr>
-        <tr><td>Seated Calf raise - 3x10</td><td><input type="checkbox" name="mon_calfRaise" id="mon_calfRaise" value="Y"/></td></tr>
-        <tr><th colspan="2">Tuesday - <i>Upperbody Routine #1</i></th></tr>
-        <tr><td>Speed rope - 5 mins</td><td><input type="checkbox" name="tues_speedRope" id="tues_speedRope" value="Y"/></td></tr>
-        <tr><td>Flat bench - 5x5</td><td><input type="checkbox" name="tues_flatBench" id="tues_flatBench" value="Y"/></td></tr>
-        <tr><td>Weighted chin ups - 3x10</td><td><input type="checkbox" name="tues_chinUp" id="tues_chinUp" value="Y"/></td></tr>
-        <tr><td>Incline bench - 3x10</td><td><input type="checkbox" name="tues_incBench" id="tues_incBench" value="Y"/></td></tr>
-        <tr><td>Dumbbell row - 3x10</td><td><input type="checkbox" name="tues_dumbRow" id="tues_dumbRow" value="Y"/></td></tr>
-        <tr><td>Cable cross overs - 3x12</td><td><input type="checkbox" name="tues_crossOver" id="tues_crossOver" value="Y"/></td></tr>
-        <tr><th>Wednesday - <i>Cardio</i></th><td><input type="checkbox" name="wed_cardio" id="wed_cardio" value="Y"/></td></tr>
-        <tr><th colspan="2">Thursday - <i>Leg Routine #2</i</th></tr>
-        <tr><td>Speed rope - 5 mins</td><td><input type="checkbox" name="thurs_speedRope" id="thurs_speedRope" value="Y"/></td></tr>
-        <tr><td>Quarter Squats - 5x5</td><td><input type="checkbox" name="thurs_qSquat" id="thurs_qSquat" value="Y"/></td></tr>
-        <tr><td>Speed Squats - 3x25</td><td><input type="checkbox" name="thurs_speedSquat" id="thurs_speedSquat" value="Y"/></td></tr>
-        <tr><td>Box Jumps - 5x5</td><td><input type="checkbox" name="thurs_boxJump" id="thurs_boxJump" value="Y"/></td></tr>
-        <tr><td colspan="2"><i>Lebron's Ab Superset 3x (Do all exercises sequentially then rest 30 seconds)</i></td></tr>
-        <tr><td>Russian Twist - 30 secs</td><td><input type="checkbox" name="thurs_russTwist" id="thurs_russTwist" value="Y"/></td></tr>
-        <tr><td>Plank - 30 secs</td><td><input type="checkbox" name="thurs_plank" id="thurs_plank" value="Y"/></td></tr>
-        <tr><td>Side Plank (Left) - 30 secs</td><td><input type="checkbox" name="thurs_lSidePlank" id="thurs_lSidePlank" value="Y"/></td></tr>
-        <tr><td>Side Plank (Right) - 30 secs</td><td><input type="checkbox" name="thurs_rSidePlank" id="thurs_rSidePlank" value="Y"/></td></tr>
-        <tr><th colspan="2">Friday - <i>Upperbody Routine #2</i></th></tr>
-        <tr><td>Speed Rope - 5 mins</td><td><input type="checkbox" name="fri_speedrope" id="fri_speedrope" value="Y"/></td></tr>
-        <tr><td>Weighted chin ups - 5x5</td><td><input type="checkbox" name="fri_chinUp" id="fri_chinUp" value="Y"/></td></tr>
-        <tr><td>Flat Bench - 3x10</td><td><input type="checkbox" name="fri_flatBench" id="fri_flatBench" value="Y"/></td></tr>
-        <tr><td>Cable Pull Down - 3x10</td><td><input type="checkbox" name="fri_pullDown" id="fri_pullDown" value="Y"/></td></tr>
-        <tr><td>Cable Cross Over - 3x12</td><td><input type="checkbox" name="fri_crossOver" id="fri_crossOver" value="Y"/></td></tr>
-        <tr><td>Lebron Abs Superset</td><td><input type="checkbox" name="fri_lebron" id="fri_lebron" value="Y"/></td></tr>
-        <tr><th>Saturday - <i>Cardio / Dunk practice</i></th><td><input type="checkbox" name="saturday" id="sat_cardio" value="Y"/></td></tr>
-      </table>
-        <button>Save as Complete</button>
-    </div>
-  </div>
-<footer>Influenced by <a href="http://twitter.com/fat" target="_blank">@fat</a></footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script></body></html>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="Keywords" content="" />
+<meta name="Description" content="Dunk Fitness Routine by Jacob Thornton (@fat)" />
+<meta name="Author" content="Chris Thomas" />
+<title>Dunk Fitness by @fat</title><style type="text/css">
+html, body {margin:0; padding:0;}
+.days {padding:20px;} 
+</style></head><body><h1>Dunk fitness by @fat</h1>
+<ul id="days">
+	<li>Sunday<br/>Rest</li>
+	<li>Monday<br/>Leg Routine #1
+		<ul>
+		<li>Speed rope - 5 mins</li>
+		<li>Single leg weighted box jump - 3x5</li>
+		<li>Split leg squats - 5x5</li>
+		<li>Walking lunges - 3x20</li>
+		<li>Hamstring curl - 3x10</li>
+		<li>Seated Calf raise - 3x10</li>
+		</ul>
+	</li>
+	<li>Tuesday<br/>Upperbody Routine #1
+		<ul>
+		<li>Speed rope - 5 mins</li>
+		<li>Flat bench - 5x5</li>
+		<li>Weighted chin ups - 3x10</li>
+		<li>Incline bench - 3x10</li>
+		<li>Dumbbell row - 3x10</li>
+		<li>Cable cross overs - 3x12</li>
+		</ul></li>
+	<li>Wednesday<br/>Cardio</li>
+	<li>Thursday<br/>Leg Routine #2
+		<ul>
+		<li>Speed rope - 5 mins</li>
+		<li>Quarter Squats - 5x5</li>
+		<li>Speed Squats - 3x25</li>
+		<li>Box Jumps - 5x5</li>
+		<li>Lebron's Ab Superset 3x (Do all exercises sequentially then rest 30 seconds)
+			<ul><li>Russian Twist - 30 secs</li>
+			<li>Plank - 30 secs</li>
+			<li>Side Plank (Left) - 30 secs</li>
+			<li>Side Plank (Right) - 30 secs</li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Friday<br/>Upperbody Routine #2
+		<ul>
+		<li>Speed Rope - 5 mins</li>
+		<li>Weighted chin ups - 5x5</li>
+		<li>Flat Bench - 3x10</li>
+		<li>Cable Pull Down - 3x10</li>
+		<li>Cable Cross Over - 3x12</li>
+		<li>Lebron Abs Superset</li>
+		</ul>
+	</li>
+	<li>Saturday<br/>Cardio / Dunk practice</li>
+</ul>
+<script type="text/javascript">
+var today = new Date(),
+	days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+</script></body></html>
