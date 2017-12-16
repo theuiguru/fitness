@@ -1,4 +1,5 @@
 .container {width:100%; max-width:600px; margin:0 auto;}
 header, footer {text-align:center;}
+header {border-bottom:2px solid #ECEFF1;}
 .day {display:none; border-radius:3px;}
 span {font-weight:bold; text-decoration:underline;}
