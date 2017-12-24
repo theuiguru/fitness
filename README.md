@@ -1,4 +1,2 @@
 # fitness
-A fitness training site influenced by jacob thornton (aka @fat)
-See old image below: 
-![alt text](screenshot.png)
+A fitness training site for @ct influenced by several (including @fat)
