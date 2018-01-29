@@ -6,9 +6,9 @@ var cacheFiles = [
 	'./',
 	'./index.html',
 	'./7min.html',
-	'./style.css',
-	'./app.js',
-	'./gulpfile.js'
+	'./assets/scripts/style.css',
+	'./assets/scripts/app.js',
+	'./assets/scripts/gulpfile.js'
 ]
 
 self.addEventListener('install', function(e) {
