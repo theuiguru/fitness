@@ -8,7 +8,9 @@ var cacheFiles = [
 	'./7min.html',
 	'./assets/scripts/style.css',
 	'./assets/scripts/app.js',
-	'./assets/scripts/gulpfile.js'
+	'./assets/scripts/gulpfile.js',
+	'./assets/fat.png',
+	'./assets/westbrook.PNG'
 ]
 
 self.addEventListener('install', function(e) {
