@@ -4,3 +4,4 @@ header {border-bottom:2px solid #ECEFF1;}
 footer {border-top: 2px solid #ECEFF1; padding-top:20px;}
 .day {display:none; border-radius:3px;}
 span {font-weight:bold; text-decoration:underline;}
+img {width:100%; max-width:100px; border-radius:100%;}
