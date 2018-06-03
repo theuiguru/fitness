@@ -1,2 +1,2 @@
 # fitness
-A fitness training site for @ct influenced by several (including @fat)
+A better fitness training for @ct influenced by several (including @fat)
