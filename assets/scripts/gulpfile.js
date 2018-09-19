@@ -14,7 +14,7 @@ var surge = require('gulp-surge');
 gulp.task('deploy', [], function () {
   return surge({
     project: './',         // Path to your static build directory
-    domain: 'fitnessbyfat.surge.sh'  // Your domain or Surge subdomain
+    domain: 'dunkfitness.surge.sh'  // Your domain or Surge subdomain
   })
 });
 gulp.task('default', ['deploy']);
