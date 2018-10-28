@@ -24,13 +24,16 @@ switch(days[today.getDay()]) {
     break;
 }
 
-if('serviceWorker' in navigator) {
-	navigator.serviceWorker
-		.register('./service-worker.js', { scope: './' })
-		.then(function(registration) {
-			console.log("Service Worker Registered");
-		})
-		.catch(function(err) {
-			console.log("Service Worker Failed to Register", err);
-		})
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/service-worker.js')
+    .then(function(registration) {
+      console.log(
+        'Service Worker registration successful with scope: ',
+        registration.scope
+      );
+    })
+    .catch(function(err) {
+      console.log('Service Worker registration failed: ', err);
+    });
 }
