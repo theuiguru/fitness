@@ -3,7 +3,7 @@
   "short_name": "Dunk Fitness",
   "description": "Dunk Fitness Daily Routine",
   "scope": ".",
-  "start_url": "/fitness",
+  "start_url": "https://dunkfitness.surge.sh",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#ffffff",
