@@ -1,5 +1,5 @@
 var today = new Date(),
-  days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 switch(days[today.getDay()]) {
   case "Sunday":
     document.getElementById("sun").style.display = "block";
