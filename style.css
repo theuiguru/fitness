@@ -2,5 +2,5 @@
 header, footer {text-align:center;}
 header {border-bottom:2px solid #ECEFF1;}
 footer {border-top: 2px solid #ECEFF1; padding-top:20px;}
-.day {display:none;}
-span {font-weight:bold; text-decoration:underline;}
+div.day {display:none;}
+span.day {font-weight:bold; text-decoration:underline;}
