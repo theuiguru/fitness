@@ -24,7 +24,7 @@ switch(days[today.getDay()]) {
     document.getElementById("sat").style.display = "block";
     break;
 }
-year.innerHTML = new Date().getFullYear();
+year.innerText = new Date().getFullYear();
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker
 	.register('./service-worker.js')
