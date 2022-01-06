@@ -1,4 +1,4 @@
-const year = document.querySelector('.year');
+const year = document.querySelector('.year').innerText = new Date().getFullYear();
 let today = new Date(),
   days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 switch(days[today.getDay()]) {
@@ -24,7 +24,6 @@ switch(days[today.getDay()]) {
     document.getElementById("sat").style.display = "block";
     break;
 }
-year.innerText = new Date().getFullYear();
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker
 	.register('./service-worker.js')
