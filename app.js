@@ -1,4 +1,4 @@
-const year = document.querySelector('.year').innerText = new Date().getFullYear();
+const year = document.querySelector('.year').textContent = new Date().getFullYear();
 let today = new Date(),
   days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 switch(days[today.getDay()]) {
