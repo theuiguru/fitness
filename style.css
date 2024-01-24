@@ -2,11 +2,11 @@
 header, footer {text-align:center;}
 header {border-bottom:2px solid #ECEFF1; display:flex; justify-content:space-between; align-items:center;}
 footer {border-top: 2px solid #ECEFF1; padding-top:20px;}
-a {color:#22d3ee;}
+a {color:#38bdf8;}
 div.day {display:none;}
 span.day {font-weight:bold; text-decoration:underline;}
 body:has(.toggle:checked) {background:#334155; color:#fff;}
 .toggle {-webkit-appearance:none; position:relative; width:50px; height:30px; border-radius:25px; background:#334155; transition:background .3s; outline:none; cursor:pointer;}
 .toggle::after {content:''; position:absolute; top:50%; left:30%; transform:translate(-50%, -50%); border-radius:50%; height:1.25rem; width:1.25rem; background:#fff; transition:left .3s;}
-.toggle:checked {background:#67e8f9;}
+.toggle:checked {background:#38bdf8;}
 .toggle:checked::after {left:70%; background:#334155;}
