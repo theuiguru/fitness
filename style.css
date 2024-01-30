@@ -1,6 +1,6 @@
 .container {width:100%; max-width:600px; margin:0 auto;}
 header, footer {text-align:center;}
-header {border-bottom:2px solid #ECEFF1; display:flex; justify-content:space-between; align-items:center;}
+header {border-bottom:2px solid #ECEFF1; display:flex; justify-content:space-evenly; align-items:center;}
 footer {border-top: 2px solid #ECEFF1; padding-top:20px;}
 a {color:#7dd3fc;}
 div.day {display:none;}
